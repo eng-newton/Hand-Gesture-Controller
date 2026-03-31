@@ -1,4 +1,4 @@
-## Note this thing is still on development sometimes its glitching the machine learning part
+## Note this project is still on development sometimes its glitching the machine learning part
 # Hand Gesture Controlled Arduino System
 
 This project demonstrates a **hand gesture controlled system** using **Python**, **MediaPipe**, **OpenCV**, and **Arduino**. The system reads gestures from a webcam, classifies them as **OPEN_HAND** or **FIST**, and sends corresponding commands to an Arduino to control connected devices.
