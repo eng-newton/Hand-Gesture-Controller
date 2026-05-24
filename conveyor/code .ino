@@ -1,4 +1,4 @@
-const int ledPin = 13; // Change if using other output
+const int ledPin = 13;
 const int testPin = LED_BUILTIN;
 String command;
 
@@ -11,7 +11,7 @@ void setup() {
 void loop() {
   if (Serial.available() > 0) {
     command = Serial.readStringUntil('\n');
-    command.trim(); // Remove any whitespace or newline
+    command.trim();
 
     if (command == "ON") {
       digitalWrite(ledPin, HIGH);
